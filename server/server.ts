@@ -1,6 +1,14 @@
+import { join } from 'node:path'
 import * as Path from 'node:path'
 import express from 'express'
+import * as URL from 'node:url'
 import cors, { CorsOptions } from 'cors'
+import request from 'superagent'
+
+import router from './routes/welcome'
+
+const __filename = URL.fileURLToPath(import.meta.url)
+const __dirname = Path.dirname(__filename)
 
 const server = express()
 
