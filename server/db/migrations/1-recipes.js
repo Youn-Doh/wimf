@@ -1,11 +1,9 @@
 export function up(knex) {
   return knex.schema.createTable('recipes', (table) => {
     table.increments('id')
-    table.string('image')
     table.string('name')
-    table.string('ingredients')
-    table.string('reference')
-    table.string('pairing')
+    table.string('image')
+    table.string('description')
   })
 }
 
