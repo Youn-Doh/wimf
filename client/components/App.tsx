@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <img className="home-image" src="./client/images/home-image.png" />
+
       {!list && <Home />}
       {list && <List />}
     </>

@@ -1,9 +1,10 @@
-html, body {
-/* background-color: rgb(250, 250, 243); */
-background-color: 000000;
-font-family: 'ADLaM Display', cursive;
-color: rgb(75, 48, 48);
-margin: 0;
+html,
+body {
+  /* background-color: rgb(250, 250, 243); */
+  background-color: 000000;
+  font-family: 'ADLaM Display', cursive;
+  color: rgb(75, 48, 48);
+  margin: 0;
 }
 
 :active {
@@ -17,34 +18,33 @@ margin: 0;
   /* width: 40%; */
   justify-content: flex-end;
   align-items: end;
-  font-size: medium;
+  font-size: 2dvh;
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
   padding: 15px;
   text-decoration: none;
 }
 
-.link{
+.link {
   text-decoration: none;
   color: rgb(75, 48, 48);
   font-weight: 400;
 }
 .head-logo {
   z-index: 1;
-  max-width: 10%;
+  max-width: 15%;
   border-radius: 80%;
   padding-left: 15px;
 }
 
 .logo-container {
-display: flex;
-justify-content: space-between;
-padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
-
 
 header {
   background-color: #fadad0;
@@ -59,8 +59,10 @@ header {
 .item-image {
   max-width: 15%;
   object-fit: cover;
+  border-radius: 70%;
 }
 
 .home-image {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }

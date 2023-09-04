@@ -1,3 +1,3 @@
 export function Home() {
-  return 'Welcome to WIMF!'
+  return <img className="home-image" src="./client/images/home-image.png" />
 }
